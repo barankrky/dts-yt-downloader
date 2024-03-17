@@ -25,7 +25,7 @@ class DTS_Video_Downloader(QMainWindow):
         thread.start()
 
     def downloadVideo(self):
-        self.ui.statusBar.showMessage("Download starting, please wait amk...")
+        self.ui.statusBar.showMessage("Download starting, please wait...")
         user_url = self.ui.urlBox.text()
         self.ui.statusBar.showMessage(self.downloader.DownloadVideo(user_url))
         
