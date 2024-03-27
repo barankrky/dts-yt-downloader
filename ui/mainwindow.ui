@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>698</width>
-    <height>256</height>
+    <height>220</height>
    </rect>
   </property>
   <property name="font">
@@ -23,10 +23,16 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>0</y>
+      <y>10</y>
       <width>701</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>DejaVu Sans</family>
+      <pointsize>12</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>DTS Youtube Downloader</string>
@@ -78,7 +84,7 @@
     <property name="geometry">
      <rect>
       <x>600</x>
-      <y>200</y>
+      <y>160</y>
       <width>89</width>
       <height>25</height>
      </rect>
@@ -91,7 +97,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>200</y>
+      <y>160</y>
       <width>89</width>
       <height>25</height>
      </rect>
@@ -103,9 +109,9 @@
    <widget class="QLabel" name="infoText">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>150</y>
-      <width>641</width>
+      <x>20</x>
+      <y>100</y>
+      <width>661</width>
       <height>41</height>
      </rect>
     </property>
@@ -114,6 +120,9 @@
       <family>DejaVu Sans</family>
       <pointsize>9</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 87, 83)</string>
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When you copy the URL of the video you want to download from YouTube, paste it into the box above, and then press the 'Download' button, your downloading process will begin. You can check the status above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
